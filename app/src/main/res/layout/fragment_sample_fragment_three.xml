@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gamebackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/english_word3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/animals"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:id="@+id/animals_button"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/adjectives"
+        android:background="@null"
+        android:id="@+id/adjectives_button"
+        android:layout_marginEnd="32dp"
+        android:layout_alignTop="@+id/animals_button"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/numbers"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:id="@+id/numbers_button"
+        android:layout_below="@+id/animals_button"
+        android:layout_alignStart="@+id/animals_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/countries"
+        android:background="@null"
+        android:id="@+id/countries_button"
+        android:layout_alignTop="@+id/numbers_button"
+        android:layout_alignStart="@+id/adjectives_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/weather"
+        android:background="@null"
+        android:layout_marginTop="13dp"
+        android:id="@+id/weather_button"
+        android:layout_below="@+id/numbers_button"
+        android:layout_alignStart="@+id/numbers_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jobs"
+        android:background="@null"
+        android:id="@+id/jobs_button"
+        android:layout_alignTop="@+id/weather_button"
+        android:layout_alignStart="@+id/countries_button" />
+</RelativeLayout>

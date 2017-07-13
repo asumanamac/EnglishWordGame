@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground"
+    tools:context="example.seniordesign_project.HelpActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="298dp"
+        android:layout_height="341dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/information_box3"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/information_header"
+        tools:layout_editor_absoluteY="140dp"
+        tools:layout_editor_absoluteX="87dp"
+        android:layout_marginTop="44dp"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignStart="@+id/information_text" />
+
+    <TextView
+        android:id="@+id/information_text"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:text="@string/information_box"
+        tools:layout_editor_absoluteY="261dp"
+        tools:layout_editor_absoluteX="80dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/imageView20"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/english_word2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp" />
+</RelativeLayout>

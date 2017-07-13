@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gamebackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/english_word3"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shapes"
+        android:id="@+id/shapes_button"
+        android:background="@null"
+        android:layout_alignTop="@+id/family_button"
+        android:layout_alignStart="@+id/colors_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/family"
+        android:layout_marginTop="16dp"
+        android:id="@+id/family_button"
+        android:background="@null"
+        android:layout_below="@+id/sports_button"
+        android:layout_alignStart="@+id/sports_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vehicles"
+        android:id="@+id/vehicles_button"
+        android:background="@null"
+        android:layout_below="@+id/family_button"
+        android:layout_alignStart="@+id/family_button"
+        android:layout_marginTop="18dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/places"
+        android:id="@+id/places_button"
+        android:background="@null"
+        android:layout_alignTop="@+id/vehicles_button"
+        android:layout_alignStart="@+id/shapes_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/colors"
+        android:id="@+id/colors_button"
+        android:background="@null"
+        android:layout_alignTop="@+id/sports_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sports"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="46dp"
+        android:id="@+id/sports_button"
+        android:background="@null"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+
+</RelativeLayout>

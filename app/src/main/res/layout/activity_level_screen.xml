@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gamebackground"
+    android:layout_height="match_parent"
+    android:id="@+id/level_layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/english_word3"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/level2"
+        android:layout_marginStart="13dp"
+        android:id="@+id/level2_button"
+        android:layout_alignTop="@+id/level1_button"
+        android:layout_toEndOf="@+id/level1_button"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/level1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="54dp"
+        android:id="@+id/level1_button"
+        android:background="@null"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/level3"
+        android:id="@+id/level3_button"
+        android:layout_marginBottom="49dp"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/level1_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/level4"
+        android:id="@+id/level4_button"
+        android:background="@null"
+        android:layout_alignTop="@+id/level3_button"
+        android:layout_alignStart="@+id/level2_button" />
+
+
+
+
+</RelativeLayout>

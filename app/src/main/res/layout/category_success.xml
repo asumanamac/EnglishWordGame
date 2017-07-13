@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/largeblueboard3"
+        android:id="@+id/imageView15"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cont"
+        android:background="@null"
+        android:id="@+id/continueButton"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/category_success"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView24"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cancelbutton"
+        android:background="@null"
+        android:id="@+id/cancelButton"
+        android:layout_marginBottom="28dp"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

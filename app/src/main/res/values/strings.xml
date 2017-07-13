@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SeniorDesign_Project</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirmpassword">Confirm Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_link_to_forgetpassword">Forgotten Password?</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="fb_login_protocol_scheme">1946488102248296</string>
+    <string name="facebook_app_id">2jmj7l5rSw0yVb/vlWAYkK/YBwk=</string>
+    <string name="information_box">Doğru kelimeyi doğru resmin altına
+        sürükleyerek oyunu oynayabilirsiniz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

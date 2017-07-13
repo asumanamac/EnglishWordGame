@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gamebackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/english_word3"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/imageView12"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clothes"
+        android:id="@+id/clothesButton"
+        android:background="@null"
+        android:layout_alignTop="@+id/foodsButton"
+        android:layout_alignStart="@+id/vegetablesButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/music2"
+        android:id="@+id/musicButton"
+        android:layout_marginStart="19dp"
+        android:background="@null"
+        android:layout_alignTop="@+id/vegetablesButton"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/foods2"
+        android:id="@+id/foodsButton"
+        android:background="@null"
+        android:layout_below="@+id/musicButton"
+        android:layout_alignStart="@+id/musicButton"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hobbies"
+        android:id="@+id/hobbiesButton"
+        android:background="@null"
+        android:layout_below="@+id/foodsButton"
+        android:layout_alignStart="@+id/foodsButton"
+        android:layout_marginTop="21dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fruits2"
+        android:id="@+id/fruitssButton"
+        android:background="@null"
+        android:layout_alignTop="@+id/hobbiesButton"
+        android:layout_alignStart="@+id/clothesButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vegetables4"
+        android:id="@+id/vegetablesButton"
+        android:background="@null"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>
